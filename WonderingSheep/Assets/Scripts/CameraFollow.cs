@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        FollowPlayer();
     }
 
     // Snap camera to players(target) location.
